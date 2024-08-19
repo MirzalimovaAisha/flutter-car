@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:practice3/home.dart';
+import 'package:practice3/login.dart';
 
 /// Flutter code sample for [PageView].
 
@@ -260,7 +261,7 @@ class PageIndicator extends StatelessWidget {
               onPressed: () {
                 if (currentPageIndex == 2) {
                   Navigator.pushReplacement(context,
-                      MaterialPageRoute(builder: (context) => const Home()));
+                      MaterialPageRoute(builder: (context) => const Login()));
                 }
                 onUpdateCurrentPageIndex(currentPageIndex + 1);
               },
