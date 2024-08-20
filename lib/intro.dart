@@ -1,9 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:practice3/home.dart';
 import 'package:practice3/login.dart';
-
-/// Flutter code sample for [PageView].
 
 void main() => runApp(const PageViewExampleApp());
 
@@ -54,7 +51,6 @@ class _PageViewExampleState extends State<PageViewExample>
 
   @override
   Widget build(BuildContext context) {
-    final TextTheme textTheme = Theme.of(context).textTheme;
 
     return Stack(
       alignment: Alignment.bottomCenter,
@@ -85,7 +81,7 @@ class _PageViewExampleState extends State<PageViewExample>
                   const SizedBox(
                     height: 10,
                   ),
-                  Container(
+                  SizedBox(
                     width: 250,
                     child: Text(
                       "it's so protected that even our team has no any assess to your payment data",
@@ -121,7 +117,7 @@ class _PageViewExampleState extends State<PageViewExample>
                   const SizedBox(
                     height: 10,
                   ),
-                  Container(
+                  SizedBox(
                     width: 250,
                     child: Text(
                       "it's so protected that even our team has no any assess to your payment data",
@@ -157,7 +153,7 @@ class _PageViewExampleState extends State<PageViewExample>
                   const SizedBox(
                     height: 10,
                   ),
-                  Container(
+                  SizedBox(
                     width: 250,
                     child: Text(
                       "it's so protected that even our team has no any assess to your payment data",
